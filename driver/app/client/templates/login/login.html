@@ -1,0 +1,28 @@
+<template name="Login">
+  <div class="login">
+     {{>Logo}}
+     {{>LoginBody}}
+  </div>
+</template>
+<template name="LoginBody">
+    <div class="login-body">
+        <div class="container-fluid">
+            <div class="col-xs-12">
+                <form action="" role="form">
+                    <div class="form-group">
+                        <input type="email" class="form-control border-radius-none" placeholder="email address" required/>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control border-radius-none" placeholder="password" required/>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-block gradient-grey border-radius-none">
+                            Login
+                        </button>
+                    </div>
+                    <a href="/register"> create account</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</template>

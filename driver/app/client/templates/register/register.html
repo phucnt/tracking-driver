@@ -1,0 +1,31 @@
+<template name="Register">
+  <div class="register">
+   {{>Logo}}
+   {{>RegisterBody}}
+  </div>
+</template>
+<template name="RegisterBody">
+    <div class="register-body">
+        <div class="container-fluid">
+            <div class="col-xs-12">
+                <form action="" role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control border-radius-none" placeholder="email address"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control border-radius-none" placeholder="password"/>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control border-radius-none" placeholder="Supplier ID"/>
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-block gradient-grey">
+                            Register
+                        </button>
+                    </div>
+                    <a href=""> forgot password</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</template>
