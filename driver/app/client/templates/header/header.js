@@ -1,33 +1,23 @@
 /*****************************************************************************/
-/* Login: Event Handlers */
+/* Header: Event Handlers */
 /*****************************************************************************/
-Template.Login.events({
-  'click #btnLogin':function(e){
-//    e.preventDefault();
-//    window.location.href='/check';
-  },
-  'submit form':function(e){
-    e.preventDefault();
-    window.location.href='/check';
-
-  }
-
+Template.Header.events({
 });
 
 /*****************************************************************************/
-/* Login: Helpers */
+/* Header: Helpers */
 /*****************************************************************************/
-Template.Login.helpers({
+Template.Header.helpers({
 });
 
 /*****************************************************************************/
-/* Login: Lifecycle Hooks */
+/* Header: Lifecycle Hooks */
 /*****************************************************************************/
-Template.Login.onCreated(function () {
+Template.Header.onCreated(function () {
 });
 
-Template.Login.onRendered(function () {
+Template.Header.onRendered(function () {
 });
 
-Template.Login.onDestroyed(function () {
+Template.Header.onDestroyed(function () {
 });

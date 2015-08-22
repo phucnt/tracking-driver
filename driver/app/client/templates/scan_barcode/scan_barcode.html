@@ -1,0 +1,34 @@
+<template name="ScanBarcode">
+  {{>Header}}
+  <div class="scan-barcode">
+    <div class="container-fluid">
+        <div class="col-xs-12">
+            {{>camera}}
+        </div>
+        <div class="col-xs-12 tracking-section">
+            <form action="" role="form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Barcode"/>
+                </div>
+                <div class="form-group">
+                    <a href="/drivertracking" class="btn btn-block gradient-grey">Tracking</a>
+                </div>
+            </form>
+        </div>
+    </div>
+  </div>
+</template>
+<template name="camera">
+    <div class="camera" id="camera">
+        <video autoplay id="vid" class="video" poster="/images/take_a_shot.jpg"></video>
+        <canvas id="canvas"  style="border:1px solid #d3d3d3;" class="hide"></canvas><br>
+        <div class="row">
+            <div class="col-xs-6">
+                <a class="btn btn-block btn-success" id="takePicture">Start</a>
+            </div>
+            <div class="col-xs-6">
+                <a class="btn btn-block btn-primary" id="Capture_Screen">Take A Snap</a>
+            </div>
+        </div>
+    </div>
+</template>

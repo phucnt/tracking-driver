@@ -1,0 +1,26 @@
+/*****************************************************************************/
+/* Header: Style */
+/*****************************************************************************/
+.header {
+}
+.header .navbar-header{
+    background-color: #4A93E6;
+
+}
+.header .navbar-default{
+    border-color: #207CE5;
+    color:#fff;
+}
+.header .navbar-default .navbar-brand{
+    color:#fff;
+}
+.header .navbar-default .navbar-toggle:focus,.header .navbar-default .navbar-toggle:hover {
+    background-color: #87E0FD;
+}
+.header .navbar-default .navbar-toggle {
+    border-color: #05ABE0;
+    background-color: #87E0FD;
+}
+.header .navbar-default .navbar-toggle .icon-bar{
+    background-color:#fff;
+}
