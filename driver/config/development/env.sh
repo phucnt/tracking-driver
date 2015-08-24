@@ -7,3 +7,4 @@
 # export ROOT_URL="http://localhost:3000"
 
 export SAMPLE_VARIABLE="somevalue"
+export  MAIL_URL="smtp:phuccntt90%40yahoo.com.vn:829656@smtp.mail.yahoo.com:465"

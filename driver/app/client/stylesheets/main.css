@@ -43,3 +43,13 @@ body{
     color:#fff;
 
 }
+.alert-warning {
+    /*color: #ffffff;*/
+    background-color: #ff7518;
+    border-color: #ff7518;
+}
+.alert-success{
+    /*color: #ffffff;*/
+    background-color: #3fb618;
+    border-color: #3fb618;
+}

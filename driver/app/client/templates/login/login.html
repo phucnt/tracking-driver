@@ -8,12 +8,13 @@
     <div class="login-body">
         <div class="container-fluid">
             <div class="col-xs-12">
+                {{>Alert}}
                 <form action="" role="form">
                     <div class="form-group">
-                        <input type="email" class="form-control border-radius-none" placeholder="email address" required/>
+                        <input id="login-email" type="email" class="form-control border-radius-none" placeholder="email address" required/>
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control border-radius-none" placeholder="password" required/>
+                        <input id="login-password" type="password" class="form-control border-radius-none" placeholder="password" required/>
                     </div>
                     <div class="form-group">
                         <button class="btn btn-block gradient-grey border-radius-none" id="btnLogin">

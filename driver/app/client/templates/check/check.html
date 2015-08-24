@@ -1,19 +1,19 @@
 <template name="Check">
     {{>Header}}
     <div class="check">
-    <div class="container-fluid">
-       <div class="col-xs-12 list-media">
-           {{#each image}}
-           {{> media}}
-           {{/each}}
-       </div>
-       <div class="col-xs-12">
-           <a href="/scanbarcode" class="btn btn-block gradient-grey">
-               Check
-           </a>
-       </div>
+        <div class="container-fluid">
+           <div class="col-xs-12 list-media">
+               {{#each image}}
+               {{> media}}
+               {{/each}}
+           </div>
+           <div class="col-xs-12">
+               <a href="/scanbarcode" class="btn btn-block gradient-grey">
+                   Check
+               </a>
+           </div>
+        </div>
     </div>
-  </div>
 </template>
 <template name="media">
     <div class="media">
